@@ -1,8 +1,45 @@
 body {
-    margin: 0;
+  margin: 0;
+  background-color: #064e3b;
 }
 
 .container {
-    display: flex;
-    justify-content: space-around;
+  display: flex;
+  justify-content: space-around;
+}
+
+h3 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 700;
+  font-size: 3.5em;
+  color: #e5e7eb;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  background-color: #080001;
+  color: #f94f6d;
+  font-family: "Cursed Timer ULiL", sans-serif;
+  padding: 1.6rem 1rem 0.8rem 1rem;
+  font-size: 6em;
+  border-radius: 5px;
+}
+
+button {
+  font-family: "Cursed Timer ULiL", sans-serif;
+  font-size: 2rem;
+  text-align: center;
+  border-radius: 5px;
+  border-color: #6ee7b7;
+  color: #6ee7b7;
+  background-color: #064e3b;
+  padding: 10px;
+  margin-right: 3px;
+}
+
+#resetButton {
+  display: flex;
+  justify-content: center;
+  align-self: center;
 }
